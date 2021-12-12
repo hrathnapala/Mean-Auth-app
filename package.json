@@ -1,0 +1,23 @@
+{
+    "name": "meanauthapp",
+    "version": "1.0.0",
+    "description": "MEAN Stack User Authentication App",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app"
+    },
+    "author": "hrathnapala",
+    "license": "MIT",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.1.1",
+        "passport": "^0.5.0",
+        "passport-jwt": "^4.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
